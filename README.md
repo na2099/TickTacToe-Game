@@ -1,5 +1,4 @@
 # TickTacToe-Game
-A project that was made for my SYSC 2004 (Object Oriented Software Development) course assignment. It was coded entirely using the Java language.
 
 The game opens in a GUI (Graphical User Interface) . It begins by asking the users to enter names for the Player controlling the "X" and the Player controlling the "O". After entering the names, each player would have a chance to select a tile to place their "X" or "O". After the game is over, the name of the winner of that game will be displayed. If the game ends in a tie, "Game over tie" would be displayed.
 
