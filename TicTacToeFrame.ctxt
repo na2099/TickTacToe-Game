@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=TicTacToeFrame
+comment0.text=\r\n\ A\ class\ modelling\ a\ tic-tac-toe\ (noughts\ and\ crosses,\ Xs\ and\ Os)\ game\ in\ a\r\n\ GUI\ window.\r\n\ Xs\ starts\ first\ then\ Os.\r\n\ Pressing\ a\ button\ disables\ it\ and\ the\ corresponding\ X\ or\ O\ is\ placed\ in\ its\ spot.\r\n\ When\ a\ tic-tac-toe\ is\ accomplished\ the\ board\ disables\ itself\ from\ being\ used.\r\n\ \r\n\ Additional\ Features\:\r\n\ -\ \ A\ JPopUpMenu\ that\ pops\ up\ at\ the\ end\ of\ the\ game\ \r\n\ \ \ \ to\ declare\ the\ winner\r\n\ -\ \ A\ 2\ JOptionPanes\ which\ asks\ for\ and\ sets\ the\ name\ of\ \r\n\ \ \ \ both\ players\ in\ the\ bottom\ status\ bar\r\n\ -\ \ A\ JLabel\ at\ the\ top\ of\ the\ tic-tac-toe\ board\ that\ keeps\ track\ of\ \r\n\ \ \ \ the\ number\ of\ wins\ for\ each\ player\ and\ the\ number\ of\ ties.\r\n\ \r\n\ @author\ Lynn\ Marshall\r\n\ @version\ November\ 8,\ 2012\r\n\ \r\n\ @author\ Muhammed\ Nabeel\ Azard\r\n\ @version\ April\ 8,\ 2023\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=TicTacToeFrame()
+comment2.text=\ \r\n\ Constructs\ a\ new\ Tic-Tac-Toe\ board\ and\ sets\ up\ the\ basic\r\n\ JFrame\ containing\ a\ JPanel\ of\ 9\ buttons\ and\ a\ JMenu\ \r\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=\ This\ action\ listener\ is\ called\ when\ the\ user\ clicks\ on\ \r\n\ \ any\ of\ the\ GUI's\ buttons.\ It\ either\ responds\ to\ the\ menu\ \r\n\ \ items\ or\ shortcuts\ or\ to\ the\ tic-tac-toe\ buttons\ \r\n\ \r\n\ @param\ e\ the\ action\ that\ has\ occured\ by\ the\ users\ input\r\n
+comment4.params=
+comment4.target=boolean\ haveWinner()
+comment4.text=\r\n\ Returns\ true\ if\ filling\ the\ given\ square\ gives\ us\ a\ winner,\ and\ false\r\n\ otherwise\r\n\ \r\n\ @return\ true\ if\ we\ have\ a\ winner,\ false\ otherwise\r\n
+comment5.params=
+comment5.target=void\ buttonsDisabled()
+comment5.text=\r\n\ When\ a\ winner\ has\ been\ determined\r\n\ all\ the\ buttons\ are\ disabled\r\n
+comment6.params=
+comment6.target=void\ restart()
+comment6.text=\r\n\ Creates\ a\ new\ game\ by\ setting\ the\ number\ of\ turns\ to\ 0\r\n\ and\ enabling\ all\ the\ buttons\ and\ setting\ them\ to\r\n\ no\ symbol\r\n
+comment7.params=
+comment7.target=java.lang.String\ getText()
+comment7.text=\r\n\ Sets\ the\ text\ that\ will\ be\ written\ at\ the\ bottom\ of\ the\ game\r\n\ to\ display\ the\ live\ status\ of\ the\ game\ \r\n\ \r\n\ @return\ A\ string\ that\ will\ be\ written\ at\ the\ bottom\ of\ every\ game\r\n
+comment8.params=
+comment8.target=java.lang.String\ getWinners()
+comment8.text=\r\n\ Sets\ the\ text\ that\ will\ be\ displayed\ at\ the\ top\ of\ the\ game\r\n\ to\ show\ which\ player\ has\ won\ the\ number\ of\ time\ \r\n\ \r\n\ @return\ A\ string\ that\ will\ be\ written\ at\ the\ top\ of\ the\ game\r\n
+numComments=9
